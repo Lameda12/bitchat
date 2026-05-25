@@ -17,6 +17,7 @@ struct BitchatApp: App {
     static let groupID = "group.\(bundleID)"
     
     @StateObject private var chatViewModel: ChatViewModel
+    @StateObject private var dozorVM = DozorViewModel()
     #if os(iOS)
     @Environment(\.scenePhase) var scenePhase
     @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
@@ -40,16 +41,17 @@ struct BitchatApp: App {
             )
         )
         
-        UNUserNotificationCenter.current().delegate = NotificationDelegate.shared
         // Warm up georelay directory and refresh if stale (once/day)
         GeoRelayDirectory.shared.prefetchIfNeeded()
     }
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            DozorRootView()
                 .environmentObject(chatViewModel)
+                .environmentObject(dozorVM)
                 .onAppear {
+                    UNUserNotificationCenter.current().delegate = NotificationDelegate.shared
                     NotificationDelegate.shared.chatViewModel = chatViewModel
                     // Inject live Noise service into VerificationService to avoid creating new BLE instances
                     VerificationService.shared.configure(with: chatViewModel.meshService.getNoiseService())

@@ -137,6 +137,7 @@ extension ChatViewModel {
             // so we must also guard checkForMentions to prevent notification bypass
             let isBlocked = identityManager.isNostrBlocked(pubkeyHexLowercased: event.pubkey.lowercased())
 
+            dozorMessageHandler?(content)
             handlePublicMessage(msg)
 
             // Only check mentions and send haptic if sender is not blocked

@@ -1,0 +1,24 @@
+{
+  "call_up_windows": [
+    {
+      "name": "Весенний призыв",
+      "start_month": 4,
+      "start_day": 1,
+      "end_month": 6,
+      "end_day": 30,
+      "risk_level": "high",
+      "notes": "Пик активности патрулей — апрель и май"
+    },
+    {
+      "name": "Осенний призыв",
+      "start_month": 10,
+      "start_day": 1,
+      "end_month": 12,
+      "end_day": 31,
+      "risk_level": "high",
+      "notes": "Пик активности патрулей — октябрь и ноябрь"
+    }
+  ],
+  "age_range": { "min": 18, "max": 27 },
+  "service_duration_months": 12
+}

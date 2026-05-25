@@ -1,187 +1,6 @@
 {
   "sourceLanguage" : "en",
   "strings" : {
-    "%@" : {
-      "comment" : "Non-localizable symbol used in code",
-      "extractionState" : "manual",
-      "localizations" : {
-        "ar" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "bn" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "de" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "en" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "es" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "fil" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "fr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "he" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "hi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "id" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "it" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "ja" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "ko" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "ms" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "ne" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "nl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "pl" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "pt" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "pt-BR" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "ru" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "sv" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "ta" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "th" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "tr" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "uk" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "ur" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "vi" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "zh-Hans" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        },
-        "zh-Hant" : {
-          "stringUnit" : {
-            "state" : "translated",
-            "value" : "%@"
-          }
-        }
-      },
-      "shouldTranslate" : false
-    },
     "%@ active" : {
       "comment" : "A label at the bottom of the people list sheet showing the number of active users.",
       "localizations" : {
@@ -36237,6 +36056,186 @@
             "state" : "translated",
             "value" : "選擇圖像"
           }
+        }
+      }
+    }
+  },
+  "dozor.tab.radar" : {
+    "comment" : "Dozor radar tab label",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Радар"
+        }
+      }
+    }
+  },
+  "dozor.tab.chat" : {
+    "comment" : "Dozor chat tab label",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Чат"
+        }
+      }
+    }
+  },
+  "dozor.tab.rights" : {
+    "comment" : "Dozor rights tab label",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Права"
+        }
+      }
+    }
+  },
+  "dozor.tab.calendar" : {
+    "comment" : "Dozor calendar tab label",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Сроки"
+        }
+      }
+    }
+  },
+  "dozor.report.title" : {
+    "comment" : "Dozor report sheet title",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Что вы видели?"
+        }
+      }
+    }
+  },
+  "dozor.report.send" : {
+    "comment" : "Dozor send signal button",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Отправить сигнал"
+        }
+      }
+    }
+  },
+  "dozor.report.locating" : {
+    "comment" : "Dozor locating GPS state",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Определяем геолокацию..."
+        }
+      }
+    }
+  },
+  "dozor.report.note.placeholder" : {
+    "comment" : "Dozor report note field placeholder",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Уточните место (необязательно)"
+        }
+      }
+    }
+  },
+  "dozor.sighting.checkpoint" : {
+    "comment" : "Dozor checkpoint sighting type",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Блокпост"
+        }
+      }
+    }
+  },
+  "dozor.sighting.mobile" : {
+    "comment" : "Dozor mobile unit sighting type",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Машина военкомата"
+        }
+      }
+    }
+  },
+  "dozor.sighting.officer" : {
+    "comment" : "Dozor officer sighting type",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Сотрудник"
+        }
+      }
+    }
+  },
+  "dozor.sighting.clear" : {
+    "comment" : "Dozor clear sighting type",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Чисто"
+        }
+      }
+    }
+  },
+  "dozor.alert.title" : {
+    "comment" : "Dozor alert notification title",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Дозор — сигнал поблизости"
+        }
+      }
+    }
+  },
+  "dozor.shield.title" : {
+    "comment" : "Dozor shield screen title",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Ваши права"
+        }
+      }
+    }
+  },
+  "dozor.calendar.title" : {
+    "comment" : "Dozor calendar screen title",
+    "extractionState" : "manual",
+    "localizations" : {
+      "ru" : {
+        "stringUnit" : {
+          "state" : "translated",
+          "value" : "Призывные сроки"
         }
       }
     }

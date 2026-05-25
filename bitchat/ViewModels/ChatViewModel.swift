@@ -99,6 +99,9 @@ final class ChatViewModel: ObservableObject, BitchatDelegate, CommandContextProv
 
     typealias GeoOutgoingContext = (channel: GeohashChannel, event: NostrEvent, identity: NostrIdentity, teleported: Bool)
 
+    // Dozor hook — set by DozorViewModel.setup(chatViewModel:)
+    var dozorMessageHandler: ((String) -> Void)?
+
     @MainActor
     var canSendMediaInCurrentContext: Bool {
         if let peer = selectedPrivateChatPeer {
@@ -3172,6 +3175,7 @@ final class ChatViewModel: ObservableObject, BitchatDelegate, CommandContextProv
     }
 
     func didReceivePublicMessage(from peerID: PeerID, nickname: String, content: String, timestamp: Date, messageID: String?) {
+        dozorMessageHandler?(content)
         Task { @MainActor in
             let normalized = content.trimmed
             let publicMentions = parseMentions(from: normalized)
